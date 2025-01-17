@@ -7,14 +7,34 @@ img {
   width: 100%;
 }
 .container {
-  max-width: 1280px;
+  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0;
 }
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+
+.header-wraper {
+  border: 1px solid;
+  height: 94px;
+  background-color: #0a22f4;
+}
+
+.header-wraper,
+nav ul {
+  display: flex;
+  gap: 45px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header img {
+  width: 97px;
+  height: 55px;
+  /* background-color: blue; */
 }
