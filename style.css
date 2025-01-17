@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "HELVETICA-NEUE-LT-GEO-75-BOLD";
+  src: url("../fonts/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf");
+}
+
+@font-face {
+  font-family: "HELVETICANEUELTGEO-45LIGHTS";
+  src: url("../fonts/HELVETICANEUELTGEO-45LIGHTS.ttf");
+}
+
+.font1 {
+  font-family: "HELVETICA-NEUE-LT-GEO-75-BOLD";
+}
+.font2 {
+  font-family: "HELVETICANEUELTGEO-45LIGHTS";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,14 +36,16 @@ a {
   text-decoration: none;
 }
 
+/* header */
 .header-wraper {
   border: 1px solid;
   height: 94px;
   background-color: #0a22f4;
 }
 
-nav ul {
+nav ul a {
   font-size: 16px;
+  color: white;
 }
 
 .header-wraper,
@@ -40,7 +59,6 @@ nav ul {
 header img {
   width: 97px;
   height: 55px;
-  /* background-color: blue; */
 }
 
 .contact {
@@ -48,7 +66,77 @@ header img {
   width: 160px;
   height: 55px;
   background-color: white;
-  /* text-align: center; */
   padding-top: 18px;
   padding-left: 36px;
+}
+.contact a {
+  color: black;
+}
+
+/* section */
+.box-wrapper {
+  margin-top: 100px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.circle1 {
+  width: 10px;
+  height: 10px;
+  background-color: #0a22f4;
+  border-radius: 10px;
+}
+
+.circle2 {
+  width: 10px;
+  height: 10px;
+  background-color: #0a22f4;
+  opacity: 30%;
+  border-radius: 10px;
+}
+
+.circle3 {
+  width: 10px;
+  height: 10px;
+  background-color: #0a22f4;
+  opacity: 30%;
+  border-radius: 10px;
+}
+
+.section-name,
+.circle {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.section-wrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.cube {
+  width: 70px;
+  height: 70px;
+  background-color: #f9f9f9;
+}
+
+.cube2 {
+  /* display: flex; */
+  width: 70px;
+  height: 70px;
+  background-color: #0a22f4;
+  /* padding-bottom: 40px; */
+}
+
+.section-name h2 {
+  padding-bottom: 60px;
+}
+
+div h3 {
+  padding-top: 40px;
+}
+
+div p {
+  padding-top: 20px;
 }
