@@ -140,3 +140,15 @@ div h3 {
 div p {
   padding-top: 20px;
 }
+
+nav {
+  position: relative;
+}
+
+.line {
+  border-top: 1px solid #ffffff;
+  width: 37px;
+  position: absolute;
+  top: 80%;
+  left: 2%;
+}
