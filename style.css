@@ -25,6 +25,10 @@ a {
   background-color: #0a22f4;
 }
 
+nav ul {
+  font-size: 16px;
+}
+
 .header-wraper,
 nav ul {
   display: flex;
@@ -37,4 +41,14 @@ header img {
   width: 97px;
   height: 55px;
   /* background-color: blue; */
+}
+
+.contact {
+  border: 1px solid;
+  width: 160px;
+  height: 55px;
+  background-color: white;
+  /* text-align: center; */
+  padding-top: 18px;
+  padding-left: 36px;
 }
